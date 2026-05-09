@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Funny Confession</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            text-align: center;
+            padding: 50px;
+        }
+        .box {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+            display: inline-block;
+        }
+        h1 {
+            color: #e63946;
+        }
+        .btn {
+            display: block;
+            margin: 15px auto;
+            padding: 10px 20px;
+            background: #e63946;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background: #d62828;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>💻 Funny Confession 💖</h1>
+        <p>Dear Crush,</p>
+        <p>You’re the missing semicolon in my life.<br>
+        Without you, my code won’t compile!</p>
+        <p>So… will you accept my love?</p>
+
+        <button class="btn" onclick="alert('Yay! Our love compiled successfully with 0 errors! 🎉')">Yes, let’s compile together!</button>
+        <button class="btn" onclick="alert('Ouch… That’s a runtime error in my heart 💔')">No, go debug yourself.</button>
+        <button class="btn" onclick="alert('Okay… I’ll stay in an infinite loop waiting ⏳')">Maybe… let me think.</button>
+    </div>
+</body>
+</html>
